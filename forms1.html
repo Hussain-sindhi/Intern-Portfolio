@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h2>Contact Us</h2> <br>
+
+        <!-- fullname fields -->
+        <label for="FullName">Full Name:</label> <br>
+        <input type="text" id="FullName" name="FullName" placeholder="Enter Your FullName" required> <br><br>
+
+        <!-- email field -->
+        <label for="Email">Email:</label> <br>
+        <input type="email" id="Email" name="Email" placeholder="Enter Your Email" required> <br><br>
+
+        <!-- message field -->
+        <label for="Message">Message</label> <br>
+        <textarea name="Message" id="Message" placeholder="Enter Your Message" required></textarea> <br><br>
+
+        <!-- Gender -->
+        <label for="Gender">Gender</label>
+        <input type="radio" name="Gender" id="Male" value="Male">Male
+        <input type="radio" name="Gender" id="Female" value="Female">Female <br><br>
+
+        <!-- Hobby -->
+        <label for="Hobby">Hobby</label>
+        <input type="checkbox" name="Hobby" id="Reading" value="Reading">Reading
+        <input type="checkbox" name="Hobby" id="Writing" value="writing">Writing
+        <input type="checkbox" name="Hobby" id="Music" value="Music">Music <br><br>
+
+        <!-- Country -->
+        <label for="Country">Country</label> <br>
+        <select name="Country" id="Country" required>
+            <option value="">Select Your Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+        </select> <br><br>
+
+        <input type="submit" style="color: white; background-color:blueviolet; border: 1px solid #ccc;" value="Submit">
+    </form>
+</body>
+</html>

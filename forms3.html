@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Address & Preferences</h2>
+    <form action="">
+        <!-- Address field -->
+        <label for="Address">1. Address:</label> <br>
+        <textarea name="Address" id="Address" placeholder="Enter Your Address" required></textarea> <br><br>
+
+        <!-- City field -->
+        <label for="City">2. City:</label> <br>
+        <input type="text" id="City" name="City" placeholder="Enter Your City" required> <br><br>
+
+        <!-- State field -->
+        <label for="State">3. State:</label> <br>
+        <input type="text" id="State" name="State" placeholder="Enter Your State" required> <br><br>
+
+        <!-- Pin Code field -->
+        <label for="PinCode">4. Pin Code:</label> <br>
+        <input type="text" id="PinCode" name="PinCode" placeholder="Enter Your Pin Code" required> <br><br>
+
+        <!-- Country field -->
+        <label for="Country">5. Country:</label> <br>
+        <input type="text" id="Country" name="Country" placeholder="Enter Your Country" required> <br><br>
+
+        <!-- Preferred Contact Time field -->
+        <label for="PreferredContactTime">6. Preferred Contact Time:</label> <br>
+        <input type="time" id="PreferredContactTime" name="PreferredContactTime" placeholder="Enter Your Preferred Contact Time"> <br><br>
+
+        <!-- Preferred Contact Date field -->
+        <label for="PreferredContactDate">7. Preferred Contact Date:</label> <br>
+        <input type="date" id="PreferredContactDate" name="PreferredContactDate"> <br><br>
+
+        <!-- Preferred Days field -->
+        <label for="PreferredDays">8. Preferred Days:</label> <br>
+        <input type="checkbox" id="monday" name="PreferredDays" value="monday">
+        <label for="monday">Monday</label>
+        <input type="checkbox" id="tuesday" name="PreferredDays" value="tuesday">
+        <label for="tuesday">Tuesday</label>
+        <input type="checkbox" id="wednesday" name="PreferredDays" value="wednesday">
+        <label for="wednesday">Wednesday</label>
+        <input type="checkbox" id="thursday" name="PreferredDays" value="thursday">
+        <label for="thursday">Thursday</label>
+        <input type="checkbox" id="friday" name="PreferredDays" value="friday">
+        <label for="friday">Friday</label>
+        <input type="checkbox" id="saturday" name="PreferredDays" value="saturday">
+        <label for="saturday">Saturday</label>
+        <input type="checkbox" id="sunday" name="PreferredDays" value="sunday">
+        <label for="sunday">Sunday</label> <br><br>
+
+        <!-- Subscribe to Newsletter field -->
+        <label for="Subscribe">10. Subscribe to Newsletter:</label> <br>
+        <input type="checkbox" id="Subscribe" name="Subscribe" value="yes">
+        <label for="Subscribe">Yes, I want to subscribe</label> <br><br>
+
+        <!-- Upload Id Proof field -->
+        <label for="IdProof">11. Upload Id Proof:</label> <br>
+        <input type="file" id="IdProof" name="IdProof" accept=".pdf,.jpg,.png" required> <br><br>
+
+        <!-- Additional Notes field -->
+        <label for="AdditionalNotes">12. Additional Notes:</label> <br>
+        <textarea name="AdditionalNotes" id="AdditionalNotes" placeholder="Enter Any Additional Information"></textarea> <br><br>
+
+        <!-- Source of Information field -->
+        <label for="Source">13. How did you hear about us?</label> <br>
+        <select id="Source" name="Source">
+            <option value="">Select an option</option>
+            <option value="friend">Friend/Family</option>
+            <option value="social">Social Media</option>
+            <option value="search">Search Engine</option>
+            <option value="advertisement">Advertisement</option>
+        </select> <br><br>
+    </form>
+</body>
+</html>
