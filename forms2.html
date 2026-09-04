@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="forms2.css">
 </head>
 <body>
-    <h2>Personal Information</h2>
-    <form action="">
-        <!-- fullname fields -->
-        <label for="FullName">1. Full Name:</label> <br>
-        <input type="text" id="FullName" name="FullName" placeholder="Enter Your FullName" required> <br><br>
+    <div class="form-container">
+        <h2>Personal Information</h2>
+
+        <form action="submit-form.php" method="post" enctype="multipart/form-data">
+            <!-- fullname fields -->
+            <label for="FullName">1. Full Name:</label> <br>
+
+            <input type="text" id="FullName" name="FullName" placeholder="Enter Your Full Name" required> <br><br>
 
         <!-- email field -->
         <label for="Email">2. Email:</label> <br>
@@ -71,6 +76,8 @@
         <input type="submit" style="color: white; background-color:blueviolet; border: 1px solid #ccc;" value="Submit">
         <input type="reset" style="color: white; background-color:rgb(226, 43, 43); border: 1px solid #ccc;" value="Reset">
     </form>
+    </div>              
     
+    <script src="script.js"></script>   
 </body>
-</html>
+</html>     

@@ -1,0 +1,14 @@
+.container{
+    height: 300px;
+    width:auto
+
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex-box;
+    background-color: #42c5b4;
+}
