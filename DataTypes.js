@@ -1,5 +1,5 @@
 // For loop and if-else condition
-let a = 1 
+let a = 
 for(a = 1; a <= 10; a++) {
     if(a%2 == 0) {
         console.log("even")
@@ -25,13 +25,27 @@ var a = 10;
 let b = 20;
 const c = 30;
 
-
 var a = 10;
 let b = 20;
 const c = 30;
 
 b= 40;
 c =20; // error bcz const variable cannot be re-assigned
+
+var a;
+console.log(a);
+a = 10;
+
+const person = {
+    name : "John",
+};
+person.name = "BOB"
+console.log(person); // bcz obj same but its property changed 
+
+/*
+    Not prefer to use var 
+    bcz of issue in block scope and functional scope
+*/
 
 
 if ("5" == 5)
@@ -40,3 +54,5 @@ if ("5" === 5)
 console.log("5" + 5)
 console.log(6 + "6")
 console.log("6"+ 7+ 7) // 677 bcz "6"+7= "67" & "67"+7= "677" 
+
+
