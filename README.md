@@ -1,52 +1,44 @@
-=======================================================================================
-                           TASK - 1
-=======================================================================================
-- create a new folder name is intern-portfolio
-- initialize it as a git repository 
+# Web Fundamentals Practice (Intern Portfolio)
 
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com)
 
-=========================================================================================
-                            TASK - 2
-==========================================================================================
-create three files inside the inter-portfolio folder:
-(1) index.html
-(2) about.txt
-(3) notes.md
-Stage index.html and about.txt, then commit them with a first-commit, 2nd-file-First-Commit, 3d-file-First-Commit
+Practice work from the first weeks of my internship (RISE program at Rishabh Software): HTML pages, CSS styling, JavaScript basics and the Git and GitHub workflow.
 
-=======================================================================================
-                           TASK - 3
-=======================================================================================
-Create a new public repository on GitHub named intern-portfolio.
-- Connect your local repository to the GitHub repository.
-- Push your local main branch to GitHub.
-- Confirm on GitHub.com that all your files and commit history are visible
+## What's inside
 
-=======================================================================================
-                           TASK - 4
-=======================================================================================
-- Create a new branch called feature-update and switch to it
-- On feature-update branch Add new section  
-- Stage and commit these changes on the feature-update branch.
-- Push the feature-update branch to GitHub.
-- Switch back to the main branch locally and confirm your changes are not present there.
--  Merge the feature-update branch into main locally.
-- Push the updated main branch to GitHub.
+| Area | Files | What I practised |
+|---|---|---|
+| **HTML basics** | `first.html` to `fifth.html`, `attributes.html`, `home.html`, `index.html` | Page structure, headings, text, links and attributes |
+| **Tables** | `table1.html`, `table2.html`, `table3.html` | Building and structuring HTML tables |
+| **Forms** | `forms1.html` to `forms4.html`, `forms2.css` | Form fields, grouping, registration and feedback forms |
+| **Assignment 1** | `Assignment_1(a).html`, `(b)`, `(c)` | Graded HTML exercises |
+| **Mini pages** | `Product_Gallery.html` + `.css`, `Tech_Hub.html` + `.css` | A product-gallery storefront page and a tech-themed page with their own stylesheets |
+| **JavaScript** | `Session1.js`, `DataTypes.js`, `variables.js`, `practice1.js` | Variables, data types, string handling, objects and console output |
+| **Git workflow** | [`docs/git-workflow-assignment.md`](docs/git-workflow-assignment.md) | Repositories, commits, branches, pull requests and merging (task list with screenshots) |
 
-=======================================================================================
-                           TASK - 5
-=======================================================================================
-- Create another branch called feature-contact.
-- Add a new file, contact.txt, with sample contact details.
-- Commit and push this branch to GitHub.
-- On GitHub.com, open a Pull Request from feature-contact into main, with a clear title and description.
-- Merge the Pull Request from the GitHub interface.
+## Running the pages
 
-<img width="1920" height="1080" alt="Screenshot 2026-08-13 151928" src="https://github.com/user-attachments/assets/66a880c3-1d3e-4902-b459-7a6f52d48be9" />
+These are static files, so no install is needed. Clone the repository and open any `.html` file in a browser:
 
-<img width="1920" height="1080" alt="Screenshot 2026-08-13 150625" src="https://github.com/user-attachments/assets/29e2ec94-7483-4112-859d-26b521b49225" />
+```bash
+git clone https://github.com/Hussain-sindhi/Intern-Portfolio.git
+cd Intern-Portfolio
+```
 
-<img width="1920" height="1080" alt="Screenshot 2026-08-13 145448" src="https://github.com/user-attachments/assets/368d7b58-9082-45e9-bf04-f32430b1d283" />
+Run a JavaScript file with [Node.js](https://nodejs.org):
 
-<img width="1920" height="1080" alt="Screenshot 2026-08-13 142936" src="https://github.com/user-attachments/assets/e65934e8-dd4d-4d41-a793-9ada12f9f58e" />
+```bash
+node Session1.js
+```
 
+## Notes
+
+- The files are kept as originally written for each session, so names such as `first.html` reflect the order I learned things in.
+- The original assignment instructions that used to be this README now live in [`docs/`](docs/git-workflow-assignment.md).
+
+## Author
+
+**Mohammad Hussain Sindhi**: [GitHub](https://github.com/Hussain-sindhi) · [LinkedIn](https://www.linkedin.com/in/mohammad-hussain-sindhi-007b4b255/)
